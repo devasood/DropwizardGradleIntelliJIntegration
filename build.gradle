@@ -13,6 +13,14 @@ apply plugin: 'idea'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
+mainClassName = 'src.main.java.application.SampleApplication'
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+
+project.ext {
+  dropwizardVersion = '0.9.2'
+}
 
 repositories {
   jcenter()
@@ -20,5 +28,13 @@ repositories {
 }
 
 dependencies {
+  compile group: 'io.dropwizard', name: 'dropwizard-core', version: dropwizardVersion
+  compile group: 'io.dropwizard', name: 'dropwizard-views', version: dropwizardVersion
+  compile group: 'io.dropwizard', name: 'dropwizard-jdbi', version: dropwizardVersion
+  compile group: 'io.dropwizard', name: 'dropwizard-client', version: dropwizardVersion
+  compile group: 'io.dropwizard', name: 'dropwizard-auth', version: dropwizardVersion
+  compile group: 'io.dropwizard', name: 'dropwizard-views-freemarker', version: dropwizardVersion
+  compile group: 'io.dropwizard', name: 'dropwizard-hibernate', version: dropwizardVersion
+
   testCompile group: 'junit', name: 'junit', version: '4.11'
 }
