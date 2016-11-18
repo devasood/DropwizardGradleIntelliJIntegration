@@ -18,4 +18,4 @@ Set JRE
 Apply changes and exit run configurations
 
 Run the Application 
-
+![alt tag](https://github.com/devasood/DropwizardGradleIntelliJIntegration/blob/master/IntelliJ%20Config.png)

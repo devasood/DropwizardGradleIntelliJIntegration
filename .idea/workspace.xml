@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7964166a-6846-4b75-942f-de7b33205159" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7964166a-6846-4b75-942f-de7b33205159" name="Default" comment="" />
     <ignored path="DropwizardGradleIntelliJSample.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -1468,7 +1465,7 @@
       <workItem from="1479278521098" duration="433000" />
       <workItem from="1479450107862" duration="884000" />
       <workItem from="1479450998626" duration="2570000" />
-      <workItem from="1479454447374" duration="4213000" />
+      <workItem from="1479454447374" duration="4255000" />
     </task>
     <servers />
   </component>
@@ -1505,7 +1502,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8795000" />
+    <option name="totallyTimeSpent" value="8837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="967" extended-state="6" />
