@@ -18,4 +18,13 @@ Set JRE
 Apply changes and exit run configurations
 
 Run the Application 
+
+
+
 ![alt tag](https://github.com/devasood/DropwizardGradleIntelliJIntegration/blob/master/IntelliJ%20Config.png)
+
+
+
+Server should run on localhost:8080/helloWorld
+
+Admin port localhost:8081
