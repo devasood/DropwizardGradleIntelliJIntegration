@@ -27,4 +27,4 @@ Run the Application
 
 Server should run on localhost:8080/helloWorld
 
-Admin port localhost:8081
+Admin port localhost:8941
